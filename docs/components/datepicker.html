@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Datepicker | vue-bootstrap</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta name="description" content="Bootstrap components in Vue.js">
+    <link rel="preload" href="/assets/css/0.styles.88d2910a.css" as="style"><link rel="preload" href="/assets/js/app.dc6dd64e.js" as="script"><link rel="preload" href="/assets/js/2.6fa2b7bf.js" as="script"><link rel="preload" href="/assets/js/13.72734c5c.js" as="script"><link rel="preload" href="/assets/js/4.6094e8b1.js" as="script"><link rel="preload" href="/assets/js/6.f370aa9c.js" as="script"><link rel="preload" href="/assets/js/5.883cdc8d.js" as="script"><link rel="prefetch" href="/assets/js/10.d085a980.js"><link rel="prefetch" href="/assets/js/11.117ec33d.js"><link rel="prefetch" href="/assets/js/12.5946c1bf.js"><link rel="prefetch" href="/assets/js/14.bd014486.js"><link rel="prefetch" href="/assets/js/15.0dcd3d24.js"><link rel="prefetch" href="/assets/js/16.e4458809.js"><link rel="prefetch" href="/assets/js/17.7f281b4c.js"><link rel="prefetch" href="/assets/js/18.5300cda6.js"><link rel="prefetch" href="/assets/js/19.9c112b88.js"><link rel="prefetch" href="/assets/js/20.c32f9fc2.js"><link rel="prefetch" href="/assets/js/21.2bca0e28.js"><link rel="prefetch" href="/assets/js/22.3210f44c.js"><link rel="prefetch" href="/assets/js/23.415c3447.js"><link rel="prefetch" href="/assets/js/3.b8906894.js"><link rel="prefetch" href="/assets/js/7.d697a59e.js"><link rel="prefetch" href="/assets/js/8.7eb44d61.js"><link rel="prefetch" href="/assets/js/9.30ac70fd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.88d2910a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">vue-bootstrap</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div> <a href="https://github.com/tectonic/vue-bootstrap" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div> <a href="https://github.com/tectonic/vue-bootstrap" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">Introduction</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Components</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/components/datepicker.html" aria-current="page" class="active sidebar-link">Datepicker</a></li><li><a href="/components/dropdown.html" class="sidebar-link">Dropdown</a></li><li><a href="/components/modal.html" class="sidebar-link">Modal</a></li><li><a href="/components/multiselect.html" class="sidebar-link">Multiselect</a></li><li><a href="/components/panel.html" class="sidebar-link">Panel</a></li><li><a href="/components/popover.html" class="sidebar-link">Popover</a></li><li><a href="/components/searchfield.html" class="sidebar-link">Search field</a></li><li><a href="/components/selectfield.html" class="sidebar-link">Select field</a></li><li><a href="/components/tabs.html" class="sidebar-link">Tabs</a></li><li><a href="/components/taginput.html" class="sidebar-link">Tag input</a></li><li><a href="/components/typeahead.html" class="sidebar-link">Typeahead</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="datepicker"><a href="#datepicker" class="header-anchor">#</a> Datepicker</h1> <p></p><div class="table-of-contents"><ul><li><a href="#demo">Demo</a></li><li><a href="#props">Props</a></li><li><a href="#events">Events</a></li></ul></div><p></p> <h2 id="demo"><a href="#demo" class="header-anchor">#</a> Demo</h2> <div class="demo" data-v-16e1769f><div class="vue-datetimepicker-widget dropdown" data-v-0e433074><input type="text" name="" id="" placeholder="" aria-haspopup="true" autocomplete="off" readonly="readonly" value="2019-08-01 23:55" class="form-control" data-v-0e433074> <div class="datepicker dropdown-menu" data-v-0e433074><ul class="list-unstyled" data-v-0e433074><li data-v-0e433074><table class="calendar table-condensed" data-v-0e433074><thead data-v-0e433074><tr data-v-0e433074><th title="Previous Month" class="previous-month control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-left" data-v-0e433074></span></th> <th colspan="5" class="current-month control-button control-display" data-v-0e433074>September 2019</th> <th title="Next Month" class="next-month control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-right" data-v-0e433074></span></th></tr> <tr data-v-0e433074><th class="day-of-week" data-v-0e433074>Su</th><th class="day-of-week" data-v-0e433074>Mo</th><th class="day-of-week" data-v-0e433074>Tu</th><th class="day-of-week" data-v-0e433074>We</th><th class="day-of-week" data-v-0e433074>Th</th><th class="day-of-week" data-v-0e433074>Fr</th><th class="day-of-week" data-v-0e433074>Sa</th></tr></thead> <tbody data-v-0e433074><tr data-v-0e433074><td class="day muted" data-v-0e433074>
+                25
+              </td><td class="day muted" data-v-0e433074>
+                26
+              </td><td class="day muted" data-v-0e433074>
+                27
+              </td><td class="day muted" data-v-0e433074>
+                28
+              </td><td class="day muted" data-v-0e433074>
+                29
+              </td><td class="day muted" data-v-0e433074>
+                30
+              </td><td class="day muted" data-v-0e433074>
+                31
+              </td></tr><tr data-v-0e433074><td class="day" data-v-0e433074>
+                1
+              </td><td class="day" data-v-0e433074>
+                2
+              </td><td class="day" data-v-0e433074>
+                3
+              </td><td class="day" data-v-0e433074>
+                4
+              </td><td class="day" data-v-0e433074>
+                5
+              </td><td class="day" data-v-0e433074>
+                6
+              </td><td class="day" data-v-0e433074>
+                7
+              </td></tr><tr data-v-0e433074><td class="day" data-v-0e433074>
+                8
+              </td><td class="day" data-v-0e433074>
+                9
+              </td><td class="day" data-v-0e433074>
+                10
+              </td><td class="day" data-v-0e433074>
+                11
+              </td><td class="day" data-v-0e433074>
+                12
+              </td><td class="day" data-v-0e433074>
+                13
+              </td><td class="day" data-v-0e433074>
+                14
+              </td></tr><tr data-v-0e433074><td class="day" data-v-0e433074>
+                15
+              </td><td class="day" data-v-0e433074>
+                16
+              </td><td class="day" data-v-0e433074>
+                17
+              </td><td class="day" data-v-0e433074>
+                18
+              </td><td class="day" data-v-0e433074>
+                19
+              </td><td class="day" data-v-0e433074>
+                20
+              </td><td class="day" data-v-0e433074>
+                21
+              </td></tr><tr data-v-0e433074><td class="day" data-v-0e433074>
+                22
+              </td><td class="day" data-v-0e433074>
+                23
+              </td><td class="day" data-v-0e433074>
+                24
+              </td><td class="day" data-v-0e433074>
+                25
+              </td><td class="day" data-v-0e433074>
+                26
+              </td><td class="day" data-v-0e433074>
+                27
+              </td><td class="day" data-v-0e433074>
+                28
+              </td></tr><tr data-v-0e433074><td class="day" data-v-0e433074>
+                29
+              </td><td class="day" data-v-0e433074>
+                30
+              </td><td class="day muted" data-v-0e433074>
+                1
+              </td><td class="day muted" data-v-0e433074>
+                2
+              </td><td class="day muted" data-v-0e433074>
+                3
+              </td><td class="day muted" data-v-0e433074>
+                4
+              </td><td class="day muted" data-v-0e433074>
+                5
+              </td></tr></tbody></table> <table class="hidden calendar table-condensed" data-v-0e433074><thead data-v-0e433074><tr data-v-0e433074><th title="Previous Year" class="previous-year control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-left" data-v-0e433074></span></th> <th colspan="5" class="current-year control-button control-display" data-v-0e433074>2019</th> <th title="Next Year" class="next-year control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-right" data-v-0e433074></span></th></tr></thead> <tbody data-v-0e433074></tbody></table> <hr class="hidden separator" data-v-0e433074> <div class="hidden" data-v-0e433074><table data-v-0e433074><tbody data-v-0e433074><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>Jan</td> <td data-v-0e433074>Feb</td> <td data-v-0e433074>Mar</td> <td data-v-0e433074>Apr</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>May</td> <td data-v-0e433074>Jun</td> <td data-v-0e433074>Jul</td> <td data-v-0e433074>Aug</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td class="selected" data-v-0e433074>Sep</td> <td data-v-0e433074>Oct</td> <td data-v-0e433074>Nov</td> <td data-v-0e433074>Dec</td></tr></tbody></table></div> <table class="hidden calendar table-condensed" data-v-0e433074><thead data-v-0e433074><tr data-v-0e433074><th class="previous-year-range control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-left" data-v-0e433074></span></th> <th colspan="5" class="current-year-range control-button control-display" data-v-0e433074>2014 - 2025</th> <th class="next-year-range control-button" data-v-0e433074><span class="glyphicon glyphicon-chevron-right" data-v-0e433074></span></th></tr></thead> <tbody data-v-0e433074></tbody></table> <hr class="hidden separator" data-v-0e433074> <div class="hidden" data-v-0e433074><table data-v-0e433074><tbody data-v-0e433074><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>2014</td> <td data-v-0e433074>2015</td> <td data-v-0e433074>2016</td> <td data-v-0e433074>2017</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>2018</td> <td class="selected" data-v-0e433074>2019</td> <td data-v-0e433074>2020</td> <td data-v-0e433074>2021</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>2022</td> <td data-v-0e433074>2023</td> <td data-v-0e433074>2024</td> <td data-v-0e433074>2025</td></tr></tbody></table></div> <div class="hidden" data-v-0e433074><table class="clock table-condensed" data-v-0e433074><tbody data-v-0e433074><tr data-v-0e433074><td title="Increment Hour" class="control-button" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-chevron-up" data-v-0e433074></span></a></td> <td data-v-0e433074></td> <td title="Increment Minute" class="control-button" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-chevron-up" data-v-0e433074></span></a></td></tr> <tr data-v-0e433074><td title="Pick Hour" class="hours" data-v-0e433074>
+                  23
+              </td> <td class="colon" data-v-0e433074>:</td> <td title="Pick Minute" class="minutes" data-v-0e433074>
+                  55
+              </td> <!----></tr> <tr data-v-0e433074><td title="Decrement Hour" class="control-button" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-chevron-down" data-v-0e433074></span></a></td> <td data-v-0e433074></td> <td title="Decrement Minute" class="control-button" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-chevron-down" data-v-0e433074></span></a></td></tr></tbody></table></div> <table class="hidden" data-v-0e433074><tbody data-v-0e433074><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>00</td> <td data-v-0e433074>01</td> <td data-v-0e433074>02</td> <td data-v-0e433074>03</td></tr><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>04</td> <td data-v-0e433074>05</td> <td data-v-0e433074>06</td> <td data-v-0e433074>07</td></tr><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>08</td> <td data-v-0e433074>09</td> <td data-v-0e433074>10</td> <td data-v-0e433074>11</td></tr><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>12</td> <td data-v-0e433074>13</td> <td data-v-0e433074>14</td> <td data-v-0e433074>15</td></tr><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>16</td> <td data-v-0e433074>17</td> <td data-v-0e433074>18</td> <td data-v-0e433074>19</td></tr><tr class="control-buttons" data-v-0e433074><td data-v-0e433074>20</td> <td data-v-0e433074>21</td> <td data-v-0e433074>22</td> <td data-v-0e433074>23</td></tr></tbody></table> <table class="hidden" data-v-0e433074><tbody data-v-0e433074><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>00</td> <td data-v-0e433074>05</td> <td data-v-0e433074>10</td> <td data-v-0e433074>15</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>20</td> <td data-v-0e433074>25</td> <td data-v-0e433074>30</td> <td data-v-0e433074>35</td></tr><tr class="control-buttons control-buttons-lg" data-v-0e433074><td data-v-0e433074>40</td> <td data-v-0e433074>45</td> <td data-v-0e433074>50</td> <td data-v-0e433074>55</td></tr></tbody></table> <hr class="separator" data-v-0e433074> <table data-v-0e433074><tbody data-v-0e433074><tr class="control-buttons" data-v-0e433074><td title="Go to today" class="set-now" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-screenshot" data-v-0e433074></span></a></td> <!----> <td title="Select Time" class="show-clock" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-time" data-v-0e433074></span></a></td> <td title="Clear selection" class="clear-selection" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-trash" data-v-0e433074></span></a></td> <td title="Close the picker" class="close-picker" data-v-0e433074><a data-action data-v-0e433074><span class="glyphicon glyphicon-remove" data-v-0e433074></span></a></td></tr></tbody></table></li></ul></div></div></div> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>datepicker</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>2019-08-31 23:55<span class="token punctuation">&quot;</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>datetime<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>datepicker</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="props"><a href="#props" class="header-anchor">#</a> Props</h2> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      name
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <!----> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  The <code data-v-065e99cf>name</code> attribute of the input element
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      value
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <!----> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Initial value, it needs to have a format such as 2017-03-01 or 2017-03-01 12:10
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      id
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <!----> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  The <code data-v-065e99cf>id</code> attribute of the input element
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      container-class
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <!----> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  The class/classes of the container element
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      formatter
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Function
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        null
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> <p data-v-065e99cf>
+    Callback used for formatting the date input.
+    It receives current date in &quot;YYYY-MM-DD (HH:MM)&quot; format as a parameter.
+    Can be easily used with <code data-v-065e99cf>moment.js</code>:
+  </p> <div class="language-js extra-class" data-v-065e99cf><pre class="language-js" data-v-065e99cf><code data-v-065e99cf><span class="token function" data-v-065e99cf>formatter</span><span class="token punctuation" data-v-065e99cf>(</span><span class="token parameter" data-v-065e99cf>date</span><span class="token punctuation" data-v-065e99cf>)</span> <span class="token punctuation" data-v-065e99cf>{</span>
+  <span class="token keyword" data-v-065e99cf>return</span> <span class="token function" data-v-065e99cf>moment</span><span class="token punctuation" data-v-065e99cf>(</span>date<span class="token punctuation" data-v-065e99cf>)</span>
+    <span class="token punctuation" data-v-065e99cf>.</span><span class="token function" data-v-065e99cf>locale</span><span class="token punctuation" data-v-065e99cf>(</span><span class="token keyword" data-v-065e99cf>this</span><span class="token punctuation" data-v-065e99cf>.</span>momentLocale<span class="token punctuation" data-v-065e99cf>)</span>
+    <span class="token punctuation" data-v-065e99cf>.</span><span class="token function" data-v-065e99cf>format</span><span class="token punctuation" data-v-065e99cf>(</span><span class="token keyword" data-v-065e99cf>this</span><span class="token punctuation" data-v-065e99cf>.</span>format<span class="token punctuation" data-v-065e99cf>)</span><span class="token punctuation" data-v-065e99cf>;</span>
+<span class="token punctuation" data-v-065e99cf>}</span>
+</code></pre></div></div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      use-am
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Boolean
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        false
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  If true the hour will be displayed in AM/PM format
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      days-of-week
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Array
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        ['Su', 'Mo', 'Tu', ...]
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Days of the week
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      highlight-today
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Boolean
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        true
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Highlights today in the calendar
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      icons
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Object
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        { left: 'glyphicon glyphicon-chevron-left', ... }
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Icons for UI buttons
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      mode
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        date
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Mode can be set to date, datetime or time
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      months
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Array
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        ['January', 'February', 'March', ...]
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Month names
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      months-short
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Array
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        ['Jan', 'Feb', 'Mar', ...]
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Short month names, used on the month selector view
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      placeholder
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        String
+      </p> <!----> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  The <code data-v-065e99cf>placeholder</code> attribute of the input element
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      translations
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Object
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        { today: 'Go to today', clear: 'Clear selection', ... }
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Allows to override tooltips with messages in another language
+</div></td></tr></table> <table class="prop" data-v-065e99cf><tr data-v-065e99cf><td class="name" data-v-065e99cf>
+      disabled
+    </td> <td data-v-065e99cf><p data-v-065e99cf><small data-v-065e99cf>Type</small><br data-v-065e99cf>
+        Boolean
+      </p> <p data-v-065e99cf><small data-v-065e99cf>Default</small><br data-v-065e99cf>
+        false
+      </p> <div class="description" data-v-065e99cf><small data-v-065e99cf>
+          Description
+        </small><br data-v-065e99cf> 
+  Disable input
+</div></td></tr></table> <h2 id="events"><a href="#events" class="header-anchor">#</a> Events</h2> <table class="event" data-v-39c6510e><tr data-v-39c6510e><td class="name" data-v-39c6510e>
+      changed
+    </td> <td data-v-39c6510e><p data-v-39c6510e><small data-v-39c6510e>Parameters</small><br data-v-39c6510e>
+        Selected date (String)
+      </p> <div class="description" data-v-39c6510e><small data-v-39c6510e>Description</small><br data-v-39c6510e> 
+  Emitted when the date is changed
+</div></td></tr></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/" class="prev router-link-active">
+        Introduction
+      </a></span> <span class="next"><a href="/components/dropdown.html">
+        Dropdown
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.dc6dd64e.js" defer></script><script src="/assets/js/2.6fa2b7bf.js" defer></script><script src="/assets/js/13.72734c5c.js" defer></script><script src="/assets/js/4.6094e8b1.js" defer></script><script src="/assets/js/6.f370aa9c.js" defer></script><script src="/assets/js/5.883cdc8d.js" defer></script>
+  </body>
+</html>
